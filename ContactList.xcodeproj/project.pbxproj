@@ -13,6 +13,7 @@
 		86B27EF628A2BDF900A717DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B27EF428A2BDF900A717DC /* Main.storyboard */; };
 		86B27EF828A2BDFA00A717DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B27EF728A2BDFA00A717DC /* Assets.xcassets */; };
 		86B27EFB28A2BDFA00A717DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B27EF928A2BDFA00A717DC /* LaunchScreen.storyboard */; };
+		86B27F0328A2C28100A717DC /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B27F0228A2C28100A717DC /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		86B27EF728A2BDFA00A717DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86B27EFA28A2BDFA00A717DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86B27EFC28A2BDFA00A717DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B27F0228A2C28100A717DC /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				86B27EF028A2BDF900A717DC /* SceneDelegate.swift */,
 				86B27EF228A2BDF900A717DC /* ViewController.swift */,
 				86B27EF428A2BDF900A717DC /* Main.storyboard */,
+				86B27F0228A2C28100A717DC /* DataManager.swift */,
 				86B27EF728A2BDFA00A717DC /* Assets.xcassets */,
 				86B27EF928A2BDFA00A717DC /* LaunchScreen.storyboard */,
 				86B27EFC28A2BDFA00A717DC /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B27EF328A2BDF900A717DC /* ViewController.swift in Sources */,
+				86B27F0328A2C28100A717DC /* DataManager.swift in Sources */,
 				86B27EEF28A2BDF900A717DC /* AppDelegate.swift in Sources */,
 				86B27EF128A2BDF900A717DC /* SceneDelegate.swift in Sources */,
 			);
